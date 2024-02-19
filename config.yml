@@ -1,0 +1,10 @@
+logging_file_path: "debug.log"
+
+holiday_events_data_location: "dataset/holidays_events.csv"
+oil_data_location: "dataset/oil.csv"
+sample_submission_data_location: "dataset/sample_submission.csv"
+stores_data_location: "dataset/stores.csv"
+test_data_location: "dataset/test.csv"
+train_data_location: "dataset/train.csv"
+transactions_data_location: "dataset/transactions.csv"
+
