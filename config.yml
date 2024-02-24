@@ -8,3 +8,10 @@ test_data_location: "dataset/test.csv"
 train_data_location: "dataset/train.csv"
 transactions_data_location: "dataset/transactions.csv"
 
+
+training_columns: ["family", "onpromotion", "store_type", "cluster", "city","state", "oil_price", "local_holiday",
+                    "national_holiday"]
+categorical_columns: ["family", "store_type", "cluster", "city", "state"]
+encoded_columns_drop: ["family_AUTOMOTIVE", "store_type_C", "cluster_17", "city_Puyo", "state_Pastaza"]
+
+
