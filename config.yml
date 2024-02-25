@@ -13,5 +13,7 @@ training_columns: ["family", "onpromotion", "store_type", "cluster", "city","sta
                     "national_holiday"]
 categorical_columns: ["family", "store_type", "cluster", "city", "state"]
 encoded_columns_drop: ["family_AUTOMOTIVE", "store_type_C", "cluster_17", "city_Puyo", "state_Pastaza"]
+correlation_threshold: 0.95
+sparsity_column_threshold: 0.95
 
 
