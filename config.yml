@@ -10,9 +10,9 @@ transactions_data_location: "dataset/transactions.csv"
 
 
 training_columns: ["family", "onpromotion", "store_type", "cluster", "city","state", "oil_price", "local_holiday",
-                    "national_holiday"]
-categorical_columns: ["family", "store_type", "cluster", "city", "state"]
-encoded_columns_drop: ["family_AUTOMOTIVE", "store_type_C", "cluster_17", "city_Puyo", "state_Pastaza"]
+                    "national_holiday","dayOfWeek","monthOfYear"]
+categorical_columns: ["family", "store_type", "cluster", "city", "state","dayOfWeek","monthOfYear"]
+encoded_columns_drop: ["family_AUTOMOTIVE", "store_type_C", "cluster_17", "city_Puyo", "state_Pastaza","dayOfWeek_0","monthOfYear_1"]
 correlation_threshold: 0.95
 sparsity_column_threshold: 0.95
 
