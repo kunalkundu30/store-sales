@@ -25,3 +25,4 @@ dataset/test.csv
 dataset/train.csv
 dataset/transactions.csv
 datasets_temporary/X_dropped_sparsity_correlation.csv
+notes
