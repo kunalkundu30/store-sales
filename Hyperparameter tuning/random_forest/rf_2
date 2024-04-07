@@ -9,3 +9,5 @@ Fitting 5 folds for each of 1 candidates, totalling 5 fits
 [CV 4/5; 1/1] END max_depth=60, min_samples_split=100, n_estimators=50;, score=(train=0.923, test=0.920) total time=12.5min
 [CV 5/5; 1/1] START max_depth=60, min_samples_split=100, n_estimators=50........
 [CV 5/5; 1/1] END max_depth=60, min_samples_split=100, n_estimators=50;, score=(train=0.928, test=0.902) total time=16.1min
+Best parameter is : alpha =  {'max_depth': 60, 'min_samples_split': 100, 'n_estimators': 50}
+Best model score on training set is  0.9016190417351068
